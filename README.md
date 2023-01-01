@@ -14,4 +14,17 @@ CRUD Operations are generally performed on databases, hence, during this PHP CRU
 <p>☆ MySQLi is a powerful database management system that is used by many developers to store data. In this tutorial, we will be using MySQLi to create tutorials for using CurD in 2022. We will cover topics such as creating databases, importing data, and exporting data. By the end of this tutorial, you will have everything you need to start creating your own CurD tutorials.</p>
 
 <p>☆ Download the source code of this project:</p>
-<a href="https://github.com/BHOLU-SINGH/php_curd_operation_tutorial/archive/refs/heads/master.zip" target="_blank" style="border: none; outline: none; text-decoration: none; background: #252525; color: #fff; padding: 12px 30px; border-radius: 20px 40px;">Download Project!</a>
+
+<style>
+  a{
+  border: none; 
+  outline: none; 
+  text-decoration: none; 
+  background: #252525; 
+  color: #fff; 
+  padding: 12px 30px; 
+  border-radius: 20px 40px;
+  }
+</sytle>
+
+<a href="https://github.com/BHOLU-SINGH/php_curd_operation_tutorial/archive/refs/heads/master.zip" target="_blank">Download Project!</a>
