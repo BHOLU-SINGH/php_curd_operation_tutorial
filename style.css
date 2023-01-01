@@ -68,3 +68,27 @@
     transform: scale(0.9);
     transition: 0.3s;
 }
+
+
+.btn{
+    border: none;
+    outline: none;
+    padding: 8px 20px;
+    letter-spacing: 0.3px;
+    font-size: 17px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.btn.add_record{
+    background-color: rgb(40, 43, 228);
+    color: #fff;
+}
+.btn.delete_record{
+    background-color: rgb(212, 25, 25);
+    color: #fff;
+}
+.btn.update_record{
+    background-color: rgb(6, 135, 6);
+    color: #fff;
+}
