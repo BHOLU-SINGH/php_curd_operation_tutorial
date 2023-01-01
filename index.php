@@ -38,7 +38,7 @@
     ?>
     <div class="container">
         <table>
-            <tr><td colspan="7"><a href="#">Add New Record</a></td></tr>
+            <tr><td colspan="7"><a href="insert.php" class="btn add_record">Add New Record</a></td></tr>
             <tr>
                 <th>Sn</th>
                 <th>Name</th>
@@ -57,8 +57,8 @@
                     <td><?php echo $arr['roll_no'] ?></td>
                     <td><?php echo $arr['age'] ?></td>
                     <td><?php echo $arr['token'] ?></td>
-                    <td><a href="update.php?token=<?php echo $arr['token'] ?>">Update</a></td>
-                    <td><a href="#">Delete</a></td>
+                    <td><a class="btn update_record" href="update.php?token=<?php echo $arr['token'] ?>">Update</a></td>
+                    <td><a class="btn delete_record" href="delete.php?token=<?php echo $arr['token'] ?>">Delete</a></td>
                 </tr>
                 <?php
             }
